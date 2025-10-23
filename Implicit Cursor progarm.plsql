@@ -1,8 +1,7 @@
-sql
-  
+#sql
+  create table emp(id number(3) primary key, ename varchar2(20), dept varchar2(10),salary number(8));
 
-
-plsql
+#plsql
   begin
     update emp set salary = salary + 100;
     if sql%notfound then 
