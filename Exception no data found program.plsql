@@ -1,7 +1,7 @@
 SQL:
 
   create table emp(id number(3) primary key, ename varchar2(20), dept varchar2(10));
-  insert into emp(id,name,dept) values(100,'dinesh','IT');
+  insert into emp(id,ename,dept) values(100,'dinesh','IT');
 
 Plsql: 
 
